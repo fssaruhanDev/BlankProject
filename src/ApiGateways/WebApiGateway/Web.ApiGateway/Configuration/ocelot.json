@@ -1,0 +1,15 @@
+{
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "IdentityService",
+
+      "DownstreamPathTemplate": "/api/auth",
+      "DownstreamScheme": "http",
+
+      "UpstreamPathTemplate": "/auth",
+      "UpstreamHttpMethod": [ "Post" ],
+      "UpstreamScheme": "http"
+    }
+  ]
+}

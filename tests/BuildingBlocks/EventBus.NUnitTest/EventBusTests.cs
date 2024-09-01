@@ -89,10 +89,10 @@ public class EventBusTests
         {
             ConnectionRetryCount = 5,
             SubscriberClientAppName = "EventBus.UnitTest",
-            DefaultTopicName = "SellingBuddyTopicName",
+            DefaultTopicName = "FssaruhanTopicName",
             EventBusType = EventBusType.AzureServiceBus,
             EventNameSuffix = "IntegrationEvent",
-            EventBusConnectionString = "Endpoint=sb://techbuddy.servicebus.windows.net/;SharedAccessKeyName=NewPolicyForYTVideos;SharedAccessKey=7sJghGWFOXaUaRblrbzOIIf4bQk6qkbTN/SEnKjXLpE="
+            EventBusConnectionString = "Endpoint=sb://fssaruhan.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=155sqjM5b1JE7hMPEE8zn/rIUBF4IbATf+ASbLpuPlw="
         };
     }
 

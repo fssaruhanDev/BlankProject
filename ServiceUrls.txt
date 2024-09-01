@@ -1,0 +1,9 @@
+
+
+Http
+Api.Gateway						==> http://localhost:5000
+IdentityServices.Api			==> http://localhost:5001
+
+Https
+Api.Gateway						==> http://localhost:6000
+IdentityServices.Api			==> http://localhost:6001
